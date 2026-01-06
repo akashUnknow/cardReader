@@ -95,5 +95,6 @@ public class CardReader implements Runnable {
             sb.append(String.format("%02X", b));
         }
         return sb.toString();
+
     }
 }
